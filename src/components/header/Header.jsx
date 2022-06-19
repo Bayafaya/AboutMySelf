@@ -1,19 +1,14 @@
-import React, { useContext, useMemo } from "react";
+import React, { useContext} from "react";
 import logo from "../../img/logo.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import MyInput from "../ui/input/MyInput";
 import { AuthContext } from "../../Context";
 import './Header.css';
 import { useDispatch, useSelector } from 'react-redux';
-import { searchUserChanger } from "../../store/searchUser";
-import { useEffect } from "react";
-import axios from "axios";
-import { useState } from "react";
+
 function Header() {
   const { soundPLay } = useContext(AuthContext);
-  const userSearch = useSelector(state => state.searchUser.searchUser)
-  const dispatch = useDispatch();
+
   return (
     <header>
       <motion.img
