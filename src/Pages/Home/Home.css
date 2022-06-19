@@ -1,0 +1,54 @@
+.mainBlock{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px auto;
+  }
+  .mainTxt{
+    font-family: 'Staatliches', cursive;
+    display: flex;
+    width: 80%;
+    font-size: 8rem;
+    align-items: center;
+    justify-content: center;
+    margin:0 auto;
+    letter-spacing: 0;
+  }
+  .sideTxt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform:uppercase ;
+    writing-mode: vertical-lr;
+    font-size: 3.5rem;
+    font-weight: bold;
+  }
+  h2{
+    text-align: center;
+  }
+
+  @media(max-width:960px){
+    .mainTxt{
+      font-size: 6rem;
+    }
+    .sideTxt{
+      font-size: 2.5rem;
+    }
+  }
+
+  @media(max-width:760px){
+    .mainBlock{
+      flex-direction: column;
+    }
+    .sideTxt{
+      writing-mode: horizontal-tb;
+    }
+  }
+  @media(max-width:550px){
+    .mainBlock{
+     margin: 5rem 0;
+    }
+    .mainTxt{
+      font-size: 4rem;
+    }
+  }

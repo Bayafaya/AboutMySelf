@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  color: #fff;
+  background: #1d1b1a;
+  letter-spacing: 2px;
+ 
+}
+.container{
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0 15px;
+}
+
+
+
+
+
+
+
+

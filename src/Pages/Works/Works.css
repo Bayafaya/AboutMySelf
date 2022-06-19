@@ -1,0 +1,24 @@
+.reposBlock{  
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+  .reposA{
+    display: flex;
+    font-family: 'Staatliches', cursive;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-left: 10%;
+    width: 80%;
+    text-decoration: none;
+    color: inherit;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+  .reposA:hover{
+    filter: invert(53%) sepia(12%) saturate(6243%) brightness(103%) contrast(94%);
+    transition: 0.5s;
+}
